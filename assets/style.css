@@ -25,6 +25,8 @@
     width: fit-content;
     box-shadow: whitesmoke;
     text-align: center;
+    color: whitesmoke;
+
 }
 
 .z-depth-5 {
@@ -42,7 +44,7 @@
  padding: 10%;
  width: fit-content;
  background-color: #144552;
- color: whitesmoke;
+ color:black;
  border: 5%;
  border-radius: 10%;
  position: relative;

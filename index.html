@@ -28,18 +28,22 @@
         <div id="currentCity" class="col s6">
             <h2 class="z-depth-1"> Current City Weather Info </h2>
             <ul>
-                Temp:
-                Wind:
-                Humidity:
-                UV Index:
+                <li id="currentTemp"> Temp: </li>
+                <li id="currentWind"> Wind: </li>
+                <li id="currentHumidity"> Humidity: </li>
+                <li id="currentUVI"> UV Index: </li>
             </ul>
         </div>
 
         <div id="fiveDayForcast" class="col s6">
             <h2 class="z-depth-5"> Five Day Forcast </h2>
             <ul>
-                <div>
-                    Day1
+                <div class="card" >
+                    <span class="card-title" id="card1-date">Date</span>
+                    <img  id="card1-date">Icon
+                    <span class="card-content" id="card1-temp">TEMP: </span>
+                    <span class="card-content" id="card1-humi">Humidity</span>
+                    <span class="card-content" id="card1-ws">WS:</span>
                 </div>
                 <div>
                     Day2
@@ -57,6 +61,6 @@
 
         </div>
     </div>
-</body>
+<script src="./assets/script.js"></script></body>
 
 </html>
