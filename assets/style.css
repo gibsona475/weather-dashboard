@@ -2,8 +2,26 @@
  text-align: center;
  font-weight: 400;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- color: blue;
+ color: #006466;
+ background-color: #312244;
  padding: 2%;
+}
+
+#citySearch {
+    background-color: #144552;
+    color: whitesmoke;
+    padding: 2%;
+}
+
+#searchButton {
+    background-color: #4D194D;
+    color: whitesmoke;
+}
+
+#searchBar {
+    width: fit-content;
+    box-shadow: whitesmoke;
+    text-align: center;
 }
 
 .z-depth-5 {
@@ -11,10 +29,15 @@
 }
 #currentCity {
     text-align: right;
+    width: fit-content;
     padding: 2%;
+    background-color: #4D194D;
+    color: whitesmoke;
 }
 #fiveDayForcast {
- text-align: right;
- padding: 2%;
+ text-align: center;
+ padding: 9%;
  width: fit-content;
+ background-color: #144552;
+ color: whitesmoke;
 }
