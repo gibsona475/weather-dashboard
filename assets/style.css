@@ -8,14 +8,16 @@
 }
 
 #citySearch {
-    background-color: #144552;
+    background-color: #4D194D;
     color: whitesmoke;
     padding: 2%;
+    border-radius: 20%;
 }
 
 #searchButton {
     background-color: #4D194D;
     color: whitesmoke;
+    position: relative;
 }
 
 #searchBar {
@@ -29,15 +31,18 @@
 }
 #currentCity {
     text-align: right;
-    width: fit-content;
     padding: 2%;
+    border-radius: 20%;
     background-color: #4D194D;
     color: whitesmoke;
 }
 #fiveDayForcast {
  text-align: center;
- padding: 9%;
+ padding: 10%;
  width: fit-content;
  background-color: #144552;
  color: whitesmoke;
+ border: 5%;
+ border-radius: 10%;
+ position: relative;
 }

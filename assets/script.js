@@ -11,3 +11,5 @@ fetch(requestUrl)
 //Search Button =
 //Current weather info display =
 //Five Day forcast =
+
+//Alert if Search no recognized "City Not Found"
