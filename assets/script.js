@@ -6,4 +6,8 @@ fetch(requestUrl)
   })
   console.log (requestUrl)
 
-
+// create variables for HTML responsive actions
+// Search for a city =
+//Search Button =
+//Current weather info display =
+//Five Day forcast =
