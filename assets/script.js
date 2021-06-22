@@ -109,11 +109,7 @@ function geoCoordinates() {
 //EVENT LISTINER 
 searchButton.onclick = geoCoordinates;
 
-// create variables for HTML responsive actions
-// Search for a city =
-//Search Button =
-//Current weather info display =
-//Five Day forcast =
-
-//Alert if Search not recognized "City Not Found"
-// savesinfo in local storage JSON.parse(localStorage.getItem
+//Local Stoage
+/*function weatherSearchHistory () {
+  var previousScores = JSON.parse(localStorage.getItem("searchButton"))|| []; 
+  */ 
