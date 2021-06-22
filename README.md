@@ -15,3 +15,5 @@ THEN I am again presented with current and future conditions for that city
 
 Link https://gibsona475.github.io/weather-dashboard/
 Link https://github.com/gibsona475/weather-dashboard
+
+![](Weather-Dashboard-Pic.png)
