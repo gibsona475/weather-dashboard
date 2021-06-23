@@ -112,4 +112,5 @@ searchButton.onclick = geoCoordinates;
 //Local Stoage
 /*function weatherSearchHistory () {
   var previousScores = JSON.parse(localStorage.getItem("searchButton"))|| []; 
+  Return display for previous cities
   */ 
