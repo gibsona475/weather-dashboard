@@ -84,7 +84,7 @@ function fetchWeatherFOrecast(lat, lon) {
 function geoCoordinates() {
   var cityName = searchInput.value; 
   // console.log("city name", cityName ); 
-  var apiRequestURL = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=2&appid=${apiKey}`;
+  var apiRequestURL = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=2&appid=${apiKey}`;
   // console.log(apiRequestURL);
 
   fetch(apiRequestURL)
