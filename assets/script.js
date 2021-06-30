@@ -33,44 +33,56 @@ function fetchWeatherFOrecast(lat, lon) {
         //CARD 1 
         var dailyRecord = weatherData.daily[0]; 
         //CARD1
-        document.getElementById("card1-date").textContent= "Date: " + dailyRecord.dt;
-        document.getElementById("card1-icon").textContent= dailyRecord.dt;
+        let forecastDate = new Date(dailyRecord.dt*1000).toLocaleDateString(); 
+        console.log(forecastDate);
+        let imageIcon = `http://openweathermap.org/img/wn/${dailyRecord.weather[0].icon}.png` ; 
+        console.log(imageIcon);
+        document.getElementById("card1-date").textContent= "Date: " + forecastDate;
+        document.getElementById("card1-icon").setAttribute("src",imageIcon);
         document.getElementById("card1-temp").textContent= "Temp: " + dailyRecord.temp.day;
         document.getElementById("card1-humi").textContent= "Humidity: " + dailyRecord.humidity;
         document.getElementById("card1-ws").textContent= "Wind Speed: " + dailyRecord.wind_speed;
 
         //CARD 2
         dailyRecord = weatherData.daily[1]; 
+        forecastDate = new Date(dailyRecord.dt*1000).toLocaleDateString(); 
+        imageIcon = `http://openweathermap.org/img/wn/${dailyRecord.weather[0].icon}.png` ; 
         //CARD2
-        document.getElementById("card2-date").textContent= "Date: " + dailyRecord.dt;
-        document.getElementById("card2-icon").textContent= dailyRecord.dt;
+        document.getElementById("card2-date").textContent= "Date: " + forecastDate; 
+        document.getElementById("card2-icon").setAttribute("src",imageIcon);
         document.getElementById("card2-temp").textContent= "Temp: " + dailyRecord.temp.day;
         document.getElementById("card2-humi").textContent= "Humidity: " + dailyRecord.humidity;
         document.getElementById("card2-ws").textContent= "Wind Speed: " + dailyRecord.wind_speed;
 
         //Card 3 
         dailyRecord = weatherData.daily[2]; 
+        forecastDate = new Date(dailyRecord.dt*1000).toLocaleDateString(); 
+        imageIcon = `http://openweathermap.org/img/wn/${dailyRecord.weather[0].icon}.png` ; 
         //Card 3
-        document.getElementById("card3-date").textContent= "Date: " + dailyRecord.dt;
-        document.getElementById("card3-icon").textContent= dailyRecord.dt;
+        document.getElementById("card3-date").textContent= "Date: " + forecastDate;
+        document.getElementById("card3-icon").setAttribute("src",imageIcon);
         document.getElementById("card3-temp").textContent= "Temp: " + dailyRecord.temp.day;
         document.getElementById("card3-humi").textContent= "Humidity: " + dailyRecord.humidity;
         document.getElementById("card3-ws").textContent= "Wind Speed: " + dailyRecord.wind_speed;
 
         //Card 4
         dailyRecord = weatherData.daily [3];
+        forecastDate = new Date(dailyRecord.dt*1000).toLocaleDateString(); 
+        imageIcon = `http://openweathermap.org/img/wn/${dailyRecord.weather[0].icon}.png` ; 
         //Card 4
-        document.getElementById("card4-date").textContent= "Date: " + dailyRecord.dt;
-        document.getElementById("card4-icon").textContent= dailyRecord.dt;
+        document.getElementById("card4-date").textContent= "Date: " + forecastDate;
+        document.getElementById("card4-icon").setAttribute("src",imageIcon);
         document.getElementById("card4-temp").textContent= "Temp: " + dailyRecord.temp.day;
         document.getElementById("card4-humi").textContent= "Humidity: " + dailyRecord.humidity;
         document.getElementById("card4-ws").textContent= "Wind Speed: " + dailyRecord.wind_speed;
 
         //Card 5
         dailyRecord = weatherData.daily [4];
+        forecastDate = new Date(dailyRecord.dt*1000).toLocaleDateString(); 
+        imageIcon = `http://openweathermap.org/img/wn/${dailyRecord.weather[0].icon}.png` ; 
         //Card 5
-        document.getElementById("card5-date").textContent= "Date: " + dailyRecord.dt;
-        document.getElementById("card5-icon").textContent= dailyRecord.weather.icon;
+        document.getElementById("card5-date").textContent= "Date: " + forecastDate;
+        document.getElementById("card5-icon").setAttribute("src",imageIcon);
         document.getElementById("card5-temp").textContent= "Temp: " + dailyRecord.temp.day;
         document.getElementById("card5-humi").textContent= "Humidity: " + dailyRecord.humidity;
         document.getElementById("card5-ws").textContent= "Wind Speed: " + dailyRecord.wind_speed;
